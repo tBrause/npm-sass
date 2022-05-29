@@ -18,6 +18,10 @@ body {
 /*
 * HEADER
 */
+h1 {
+  color: #f1f1f1;
+}
+
 .button {
   color: rgb(226, 165, 23);
 }

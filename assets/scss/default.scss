@@ -62,14 +62,39 @@ body {
 @import "assets/footer";
 
 // VERERBUNG %
-%button {
+// BASE Styles
+%button-base {
+    padding: 1em 2em;
+    background-color: $primary-color;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
     border: none;
 }
 
-.button-parent {
-    // verbinden @
-    @extend %button;
-    padding: 1em 2em;
-    background-color: $primary-color;
+// verbinden @extend
+// INDIVUDUAL Styles
+.button-home {
+    @extend %button-base;
     border: 1px solid #000;
+}
+
+// Mixins
+// Funktion
+@mixin paddingButton($padding) {
+    padding: $padding;
+}
+
+.button-super {
+    @include paddingButton(40px);
+    background-color: green;
+}
+
+// EACH
+$sizes: 20px, 30px, 40px;
+
+@each $size in $sizes {
+    .size-#{$size}  {
+        padding: $size;
+    }
 }

@@ -1,7 +1,23 @@
-$bcolor: red;
+/* VARS */
+$bcolor: #f1f1f1;
 
-h1 {
-    color: $bcolor;
+/**
+* DEFAULT
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/**
+* IMPORT
+*/
+
 @import "assets/header";
+@import "assets/main";

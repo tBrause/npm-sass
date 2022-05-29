@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "sass-dev": "sass assets/scss:assets/css",
-    "sass-compressed": "sass --style=compressed assets/scss:assets/css",
-    "sass-frontend": "sass --watch --no-source-map --style=compressed assets/scss:assets/css"
+    "sass-dev": "sass --watch assets/scss:assets/css",
+    "sass-compressed": "sass --style=compressed --no-source-map assets/scss:assets/css",
+    "sass-frontend": "sass --style=compressed assets/scss:assets/css"
   },
   "keywords": [
     "sass"

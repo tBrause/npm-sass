@@ -1,12 +1,16 @@
 /*
 * HEADER
 */
+header {
+    width: 100%;
+}
 h1 {
-    color: $bcolor;
+    background-color: $primary-bg-color;
+    color: $primary-color;
 }
 
-.button {
-    color: rgb(226, 165, 23);
-}
+/*
+* IMPORT NAV
+*/
 
 @import "nav";

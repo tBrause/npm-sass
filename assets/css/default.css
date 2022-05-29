@@ -1,1 +1,110 @@
-*{margin:0;padding:0;box-sizing:border-box}body{font-family:"Courier New",Courier,monospace}h1{color:#f1f1f1}.button{color:#e2a517}nav{color:#f1f1f1}main{width:80%;min-width:280px;max-width:960px;margin:auto;background-color:#f1f1f1}/*# sourceMappingURL=default.css.map */
+/** ##### Structure #####
+ * - Variables
+ * - Browser-Reset
+ * - Body
+ * - Z-Index
+ * - Import
+ *     - Header
+ *     - Main (include HTML-Elements)
+ *     - Footer
+ * ##################### */
+/* VARS */
+/**
+* Browser-Reset
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  line-height: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/**
+* BODY
+*/
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: #333;
+}
+
+/**
+* IMPORT
+*/
+/*
+* HEADER
+*/
+header {
+  width: 100%;
+}
+
+h1 {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+/*
+* IMPORT NAV
+*/
+/*
+* NAV
+*/
+nav {
+  color: #333;
+}
+
+/*
+* MAIN
+*/
+main {
+  width: 80%;
+  min-width: 280px;
+  max-width: 960px;
+  margin: auto;
+  background-color: #f1f1f1;
+}
+main ul {
+  background-color: red;
+}
+main ul li {
+  margin-bottom: 20px;
+}
+
+/*
+* FOOTER
+*/
+footer {
+  color: #333;
+}
+footer li {
+  background-color: #f1f1f1;
+  font-size: 20px;
+}
+
+.button-parent {
+  border: none;
+}
+
+.button-parent {
+  padding: 1em 2em;
+  background-color: #333;
+  border: 1px solid #000;
+}
+
+/*# sourceMappingURL=default.css.map */

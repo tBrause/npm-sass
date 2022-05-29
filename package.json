@@ -1,0 +1,17 @@
+{
+  "name": "sass-project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "sass-dev": "sass assets/scss:assets/css"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}

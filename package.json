@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "sass-dev": "sass assets/scss:assets/css"
+    "sass-dev": "sass --watch assets/scss:assets/css"
   },
   "keywords": [
     "sass"

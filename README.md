@@ -30,70 +30,42 @@
 
 > CMD: git clone & remote remove origin
 
-    git clone https://github.com/tBrause/npm-vite-react-sass.git .; git remote remove origin;
+    git clone https://github.com/tBrause/npm-sass.git .; git remote remove origin;
 
 > CMD: npm install
 
     npm install
 
-> CMD: npm run build
+> CMD: npm run sass-dev
 
-    npm run build
+    npm run sass-dev
 
-> CMD: npm run dev
+> CMD: npm run sass-compressed
 
-    npm run dev
+    npm run sass-compressed
 
-> CMD: npm run preview
+> CMD: npm run sass-frontend
 
-    npm run preview
+    npm run sass-frontend
 
 ## Struktur und Dateien
 
-- public
-  - vite.svg
 - sass
-  - \_normalize.scss
-  - style.css
-- src
-  - components
-    - App.jsx
-  - app.jsx
-- .eslintrc.cjs
-- .gitignore
-- package-lock.json
-- package.json
-- postcss.config.cjs
-- prettier.config.cjs
-- README.md
-- vite.config.js
+  - src
+    - \_\*.scss
+  - default.scss
 
 ## Konfiguration
 
 ### scripts
 
-- dev: --host
-- build: vite build
-- preview: vite preview
+- sass-dev
+- sass-compressed
+- sass-frontend
 
 ### dependencies
 
-- react
-- react-dom
 - sass
-
-### devDependencies
-
-- @types/react
-- @types/react-dom
-- @vitejs/plugin-react
-- cssnano
-- postcss-preset-env
-- vite
-- eslint
-- eslint-plugin-jsx-a11y
-- eslint-plugin-react
-- eslint-plugin-react-hooks
 
 ### browserslist
 
@@ -104,12 +76,4 @@
 ### Struktur und Dateien
 
 - dist
-  - assets
-    - index-cache.js
-    - index-cache.css
-  - index.html
-  - vite.svg
-
-## GIT
-
-<!-- kom -->
+  - defauls.css

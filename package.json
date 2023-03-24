@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "1.52.*"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }

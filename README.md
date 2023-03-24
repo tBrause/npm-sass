@@ -73,7 +73,5 @@
 
 ## Frontend
 
-### Struktur und Dateien
-
 - dist
-  - defauls.css
+  - default.css

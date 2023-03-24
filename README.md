@@ -1,6 +1,8 @@
 # DEV-SASS-Entwicklungsumgebung
 
-### sass, vsc, git
+Layout mit HTML und CSS erstellen
+
+### sass, html, vsc, git
 
 ## Installation
 

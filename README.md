@@ -48,14 +48,19 @@
 
     npm run sass-frontend
 
-## Struktur und Dateien
+## Konfiguration
+
+### DEV Directory
 
 - sass
   - src
     - \_\*.scss
   - default.scss
 
-## Konfiguration
+## Frontend Directory
+
+- dist
+  - default.css
 
 ### scripts
 
@@ -70,8 +75,3 @@
 ### browserslist
 
 - default
-
-## Frontend
-
-- dist
-  - default.css

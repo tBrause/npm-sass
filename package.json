@@ -1,19 +1,19 @@
 {
-  "name": "sass-project",
+  "name": "npm-sass",
   "version": "0.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "sass-dev": "sass --watch assets/scss:assets/css",
-    "sass-compressed": "sass --style=compressed --no-source-map assets/scss:assets/css",
-    "sass-frontend": "sass --style=compressed assets/scss:assets/css"
+    "sass-dev": "sass --watch sass:dist/css",
+    "sass-compressed": "sass --style=compressed --no-source-map sass:dist/css",
+    "sass-frontend": "sass --style=compressed sass:dist/css"
   },
   "keywords": [
     "sass"
   ],
-  "author": "",
+  "author": "Torsten Brause",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.52.1"
+    "sass": "1.52.*"
   }
 }
